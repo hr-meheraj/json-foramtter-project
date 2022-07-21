@@ -52,3 +52,10 @@
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media screen and (max-width:600px){
+  .container{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+}
+html { background-color : ##171c20 !important}
